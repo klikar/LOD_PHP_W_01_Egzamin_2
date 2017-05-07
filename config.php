@@ -1,6 +1,6 @@
 <?php
 
-define('DB_HOST', '');
-define('DB_USER', '');
-define('DB_PASSWORD', '');
-define('DB_DBNAME', '');
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASSWORD', 'coderslab');
+define('DB_DBNAME', 'exam2');

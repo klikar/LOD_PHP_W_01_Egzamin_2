@@ -1,0 +1,44 @@
+1. Zad: 
+
+1. relacja jeden-do-jednego
+
+W relacji jeden-do-jednego każdy rekord w tabeli A może mieć tylko jeden dopasowany 
+rekord z tabeli B, i tak samo każdy rekord w tabeli B może mieć tylko jeden dopasowany 
+rekord z tabeli A
+Przykład: numer VIN i pojazd mechaniczny - jeden numer i jeden pojazd
+
+2. Relacja jeden-do-wielu
+
+Relacja jeden-do-wielu jest najbardziej powszechnym typem relacji.
+W relacji jeden-do-wielu rekord w tabeli A może mieć wiele dopasowanych do niego 
+rekordów z tabeli B, ale rekord w tabeli B ma tylko jeden dopasowany rekord w tabeli A.
+Przykład: rodzaj stanowiska i pracownicy - pracownik może zajmować jedno stanowisko, 
+ale wielu pracowników może być na tym samym stanowisku.
+
+3. Relacja wiele-do-wielu
+
+W relacji wiele-do-wielu, rekord w tabeli A może mieć wiele dopasowanych do niego 
+rekordów z tabeli B i tak samo rekord w tabeli B może mieć wiele dopasowanych do 
+niego rekordów z tabeli A. Jest to możliwe tylko przez zdefiniowanie trzeciej tabeli, 
+gdzie jej klucz podstawowy składa się z dwóch pól z kluczy obcych z tabel A i B.
+Przykład: Klasyfikacja medalowa drużyny - 3 rodzaje medali i wiele drużyn. Każda 
+drużyna może mieć wiele różnych medali i jeden rodzaj medalu może byc przypisany do 
+wielu drużyn.
+
+2. Zad:
+
+Polimorfizm - możliwość wykorzystania struktury interfejsu w wielu różnych klasach. 
+Ważne jest dla nas, iż możemy wykorzystać zbiór funkcjonalności danego interfejsu 
+zależnie od potrzeb planowanego zastosowania np. snajper może implementować wszystkie 
+funkcje żołnierza.
+
+Hermetyzacja - oznacza, iż w danej klasie możemy określać sposób i zakres wykorzystania 
+naszego kodu. Realizowane jest to poprzez modyfikatory dostępu: public, private, protected.
+
+Dziedziczenie - możliwość wykorzystania po sobie przez klasy właściwości i funkcjonalności 
+bez ich kopiowania, co pozwala na znaczne zmniejszenie ilości, jak również swobodne 
+tworzenie w pełni rozszerzalnego i dostosowanego do naszych potrzeb kodu. Przydatne 
+zwłaszcza przy uszczegóławianiu poszczególnych klas.
+
+Abstrakcja - przetrzymywanie przez klasę pewnej logiki, dzięki, której otrzymujemy 
+daną funkcjonalność.
